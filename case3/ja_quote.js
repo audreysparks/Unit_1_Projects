@@ -1,3 +1,4 @@
+"use strict";
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 9
@@ -12,6 +13,23 @@
    quotation tag in the Web page.
 
 */
+function randomQ() {
+ var quoteElem;  
+}
+
+
+function randomInt(n){
+   var random = Math.random()*10*3;
+   var randy = Math.floor(Math.Random()*5+10)
+   return randy ; 
+   random.Int(5,10);
+}
+
+function getQuote(){
+   var randomQ = display.innerHTML = getQuote; 
+}
+
+ 
 
 
 function getQuote(n) {
@@ -30,3 +48,6 @@ function getQuote(n) {
    
    return quotes[n];
 }
+function RandomInt(){
+
+};

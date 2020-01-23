@@ -1,4 +1,4 @@
-
+"use strict";
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 9
@@ -14,8 +14,17 @@
 
 */
 
+var thisDate = new date ("October 12,2018");
+var dateStr =  new date ("October 12,2018");
 
+var dateHTML = "<h2>date</h2>";
 
+var thisDay = thisDate.getDay();
+function getEvent(){
+   var eventHTML;
+} 
+
+function insertAdjacentHTML();
 function getEvent(day) {
    var eventHTML;
    switch (day) {
